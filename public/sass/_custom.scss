@@ -1,0 +1,21 @@
+.sidemenu,
+.sidemenu-open .sidemenu,
+.navbar,
+.dashboard-container {
+  background: url(../img/darkBlue/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.panel-wrapper {
+  border: #0545a0 solid 1px;
+}
+.panel-container {
+  border-image-source: url(../img/darkBlue/panel_bg.png);
+  border-image-slice: 32;
+  border-image-width: 16px;
+  border-image-repeat: repeat;
+  border-image-outset: 2px;
+  background: rgba(11, 25, 65, 0.9);
+}

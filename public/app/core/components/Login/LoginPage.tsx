@@ -54,7 +54,7 @@ export const LoginPage: FC = () => {
                             variant="link"
                             href={`${config.appSubUrl}/user/password/send-reset-email`}
                           >
-                            Forgot your password?
+                            忘记密码?
                           </LinkButton>
                         </HorizontalGroup>
                       ) : (

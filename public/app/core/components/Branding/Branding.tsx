@@ -38,8 +38,8 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'Grafana';
-  static LoginTitle = 'Welcome to Grafana';
+  static AppTitle = '大数据驾驶舱';
+  static LoginTitle = '大数据中心';
   static GetLoginSubTitle = () => {
     const slogans = [
       "Don't get in the way of the data",
